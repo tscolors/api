@@ -1,0 +1,24 @@
+DEVSNOTES : Sistema de anotções simples
+
+O que o projeto precisa fazer?
+- Listar as anotações 
+- Inserir uma anotação 
+- Atualizar uma anotação
+- Deletar um anotação
+
+
+
+Qual a estrutura de dados?
+- Local para armazenar as anotações
+- id 
+- titulo 
+- body
+
+
+
+Quais os endpoints
+- (GET)/api/notes -api/getall.php
+- (GET)/api/note/123  - /api
+- (POST)/api/note(titulo, body)
+- (PUT)/api/note/123 (titulo, body)
+- (DELETE)/api/note/123
